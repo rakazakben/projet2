@@ -41,7 +41,7 @@ em{
 .contenu{
     border-bottom: 1px #8e86b5 solid;
     border-right: 1px #8e86b5 solid;
-    border-radius: 50px;
+    border-radius: 0px 10px 50px 50px;
 }
 .lienheader:hover{
     opacity: 0.5;
