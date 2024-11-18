@@ -26,7 +26,7 @@ em{
     color:#A5B4FC;
     font-style: normal;
 }
-.header, .footer {
+header, footer, nav {
     background-color: white;
     color: #242424;
 }
