@@ -1,6 +1,9 @@
 *{
     margin: 0;
 }
+p{
+    margin: 40px;
+}
 a{
     color: black;
     text-decoration: none;
@@ -19,6 +22,7 @@ h1
     font-size: 3.5em;
     color:#A5B4FC;
     font-family: 'Montserrat', sans-serif ;
+    margin: 40px;
 
 }
 p{
@@ -41,6 +45,7 @@ header, footer {
     color: white;
     background: linear-gradient( #8e86b5, #acaeed);
     border-radius: 50px;
+    padding: 10px;
 }
 .lienspe:hover{
     background: linear-gradient(#696484, #8788BA)
@@ -50,7 +55,7 @@ header, footer {
     border-right: 1px #8e86b5 solid;
     border-radius: 0px 50px 50px 50px;
     padding: 50px;
-    margin: auto;
+   
 }
 .lienheader:hover{
     opacity: 0.5;
@@ -61,7 +66,26 @@ h2{
 ul{
     margin: 50px
 }
+section{
+    padding: 80px;
+}
 .contenthome{
+    display: flex;
+    flex-direction: row;
+    width: 50%;
+    justify-content: center;
     margin: auto;
-    padding: 50px;
+    
+}
+.stockphoto{
+    display: flex;
+    width: 75%;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+    
+}
+.lastproject{
+    background-color: white;
+    color: #1f2039;
 }
