@@ -1,3 +1,6 @@
+*{
+    margin: 0;
+}
 a{
     color: black;
     text-decoration: none;
@@ -26,9 +29,13 @@ em{
     color:#A5B4FC;
     font-style: normal;
 }
-header, footer, nav {
+section{
+    padding: 80px;
+}
+header, footer {
     background-color: white;
     color: #242424;
+    padding: 20px 50px 20px 50px;
 }
 .lienspe {
     color: white;
@@ -41,8 +48,20 @@ header, footer, nav {
 .contenu{
     border-bottom: 1px #8e86b5 solid;
     border-right: 1px #8e86b5 solid;
-    border-radius: 0px 10px 50px 50px;
+    border-radius: 0px 50px 50px 50px;
+    padding: 50px;
+    margin: auto;
 }
 .lienheader:hover{
     opacity: 0.5;
+}
+h2{
+    margin: 50px;
+}
+ul{
+    margin: 50px
+}
+.contenthome{
+    margin: auto;
+    padding: 50px;
 }
